@@ -1,28 +1,43 @@
 .home{
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
-.content .title {
+.content .content-left {
     font-size: var(--header-height);
 }
 
 .home__container {
     padding-top: 5.5rem;
+    margin-bottom: 0;
 }
 
 .content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-right: 0;
 }
 
 
-.content .title {
+.content .content-left {
     font-size: 2.5rem;
     width: 400px;
     margin-left: 4rem;
+}
+
+.home__button {
+    width: auto;
+    padding: 1rem;
+    justify-content: center;
+    font-size: large;
+    border: 2px solid darkgreen;
+    border-radius: 1rem;
+    color: darkgreen;
+}
+
+.home__button:hover {
+    background-color: darkgreen;
+    color: white;
 }
 
 
