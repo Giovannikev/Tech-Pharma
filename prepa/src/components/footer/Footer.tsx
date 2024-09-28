@@ -3,7 +3,7 @@ import './footer.css'
 const Footer = () => {
     return(
         <footer className="footer">
-            <div className="footer__container container">
+            <div className="footer__container">
 
                 <div className="footer__social">
                 <a href="https://www.linkedin.com/in/giovanni-kevin-204422300/" className="home__social-icon" target='_blank'>
