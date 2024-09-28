@@ -1,3 +1,8 @@
+.home{
+    width: 100%;
+    height: 500px;
+}
+
 .content .title {
     font-size: var(--header-height);
 }
@@ -8,14 +13,23 @@
 
 .content {
     display: flex;
-    gap: var(--mb-3);
-    margin-left: var(--mb-2);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 0;
 }
 
-.home-image img {
-    border-radius: 10px;
+
+.content .title {
+    font-size: 2.5rem;
+    width: 400px;
+    margin-left: 4rem;
 }
+
 
 .home-image {
-    padding: var(--mb-3);
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 11rem;
 }

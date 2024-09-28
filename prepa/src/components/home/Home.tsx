@@ -5,9 +5,9 @@ const Home = () => {
         <section className='home' id='home'>
             <div className="home__container">
                 <div className="content">
-                    <h1 className="title">Bienvenue sur votre Pharmacie en ligne </h1>
+                    <div className="title">Bienvenue sur notre site Pharmacie en ligne </div>
                     <div className="home-image">
-                        <img src="https://cdn.pixabay.com/photo/2023/09/20/07/37/doctor-8264060_640.jpg" alt="Pharmacie en ligne - Tech Pharma"/>
+                        <img src="https://cdn.pixabay.com/photo/2013/07/13/11/57/apothecary-159037_640.png" alt="Pharmacie en ligne - Tech Pharma"/>
                     </div>
                 </div>
             </div>
