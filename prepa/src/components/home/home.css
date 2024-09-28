@@ -1,0 +1,8 @@
+.content .title {
+    font-size: var(--header-height);
+}
+.content {
+    display: flex;
+    gap: var(--mb-3);
+    margin-left: var(--mb-2);
+}
