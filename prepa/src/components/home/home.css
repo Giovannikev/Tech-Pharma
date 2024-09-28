@@ -2,6 +2,10 @@
     font-size: var(--header-height);
 }
 
+.home__container {
+    padding-top: 5.5rem;
+}
+
 .content {
     display: flex;
     gap: var(--mb-3);
