@@ -1,8 +1,17 @@
 .content .title {
     font-size: var(--header-height);
 }
+
 .content {
     display: flex;
     gap: var(--mb-3);
     margin-left: var(--mb-2);
+}
+
+.home-image img {
+    border-radius: 10px;
+}
+
+.home-image {
+    padding: var(--mb-3);
 }
