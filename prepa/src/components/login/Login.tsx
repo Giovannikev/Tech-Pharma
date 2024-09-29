@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './login.css'
 
 function Login() {
@@ -19,7 +19,7 @@ function Login() {
   };
 
   // mandefa formulaire
-  const handleSubmit = (event) => {
+  const handleSubmit = (event: { preventDefault: () => void; }) => {
     event.preventDefault();
     if (isSignUp && password !== confirmPassword) {
       alert('Les mots de passe ne correspondent pas');
