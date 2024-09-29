@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './productsData.css'
 
-// Exemple de données de produit
 const productsData = [
   {
     id: 1,
@@ -24,11 +23,10 @@ const productsData = [
     price: '12.000 Ar',
     image: 'https://media.istockphoto.com/id/459004449/fr/photo/haliborange-vitamine-c-1-mg-effervescentes-tablettes.jpg?s=612x612&w=0&k=20&c=Uh2ifbZSik84UfPqU-OG9Iv55dd4ccwto47auQL0g68=',
   },
-  // Ajoute autant de produits que nécessaire
 ];
 
 function ProductCatalogue() {
-  const [products] = useState(productsData); // Simule un état pour les produits (peut venir d'une API)
+  const [products] = useState(productsData); 
 
   return (
     <div className='product__container'>
@@ -47,7 +45,7 @@ function ProductCatalogue() {
             <p>{product.description}</p>
             <p className='product__price'>{product.price}</p>
             <button className='product__button'>Ajouter au Panier</button>
-            
+
           </div>
         ))}
       </div>

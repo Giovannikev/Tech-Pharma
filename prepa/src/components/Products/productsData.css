@@ -29,6 +29,7 @@
 .image__container {
     display: flex;
     width: 100%;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
