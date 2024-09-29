@@ -28,8 +28,10 @@
 
 
 .product__image {
-    width: 150px;
-    height: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
 }
