@@ -23,7 +23,7 @@ function ChatBotPage() {
 
     // Simuler une réponse du bot après une courte pause
     setTimeout(() => {
-      const botMessage: Message = { text: "Je suis un bot, comment puis-je t'aider ?", sender: 'bot' };
+      const botMessage: Message = { text: "Je suis un votre assistant médicale, comment puis-je vous aidez ?", sender: 'bot' };
 
       setMessages(prevMessages => [...prevMessages, botMessage]);
     }, 1000);

@@ -38,11 +38,16 @@ function ProductCatalogue() {
       <div className='product__grid'>
         {products.map((product) => (
           <div key={product.id} className='product__card'>
-            <img src={product.image} alt={product.name} className='product__image' />
+
+            <div className="image__container">
+                <img src={product.image} alt={product.name} className='product__image' />
+            </div>
+
             <h2>{product.name}</h2>
             <p>{product.description}</p>
             <p className='product__price'>{product.price}</p>
             <button className='product__button'>Ajouter au Panier</button>
+            
           </div>
         ))}
       </div>
