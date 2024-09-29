@@ -7,8 +7,11 @@ const Home = () => {
                 <div className="content">
 
                     <div className="content-left">
-                        <h1>Bienvenue sur notre site Pharmacie en ligne</h1> 
-                        <button type="button" className='home__button'>Créer un Compte</button>
+                        <h1>Bienvenue sur votre site Pharmacie en ligne</h1>
+                        <div className="button__container">
+                            <button type="button" className='button__create button'>Créer un Compte</button>
+                            <button  type="button" className='button__talk button'><a href="#chat">Parlez à l'assistant</a></button>
+                        </div> 
                     </div>
 
                     <div className="home-image">
@@ -17,6 +20,8 @@ const Home = () => {
 
                 </div>
             </div>
+
+            
         </section>
     )
 }

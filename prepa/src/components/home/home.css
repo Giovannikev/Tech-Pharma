@@ -25,7 +25,13 @@
     margin-left: 4rem;
 }
 
-.home__button {
+.button__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 1rem;
     width: auto;
     padding: 1rem;
     justify-content: center;
@@ -35,7 +41,7 @@
     color: darkgreen;
 }
 
-.home__button:hover {
+.button:hover {
     background-color: darkgreen;
     color: white;
 }
