@@ -23,6 +23,27 @@ const productsData = [
     price: '12.000 Ar',
     image: 'https://media.istockphoto.com/id/459004449/fr/photo/haliborange-vitamine-c-1-mg-effervescentes-tablettes.jpg?s=612x612&w=0&k=20&c=Uh2ifbZSik84UfPqU-OG9Iv55dd4ccwto47auQL0g68=',
   },
+  {
+    id: 4,
+    name: 'Vitamine C 1000mg',
+    description: 'Supplément pour renforcer le système immunitaire et prévenir les carences en vitamine C.',
+    price: '12.000 Ar',
+    image: 'https://media.istockphoto.com/id/459004449/fr/photo/haliborange-vitamine-c-1-mg-effervescentes-tablettes.jpg?s=612x612&w=0&k=20&c=Uh2ifbZSik84UfPqU-OG9Iv55dd4ccwto47auQL0g68=',
+  },
+  {
+    id: 5,
+    name: 'Vitamine C 1000mg',
+    description: 'Supplément pour renforcer le système immunitaire et prévenir les carences en vitamine C.',
+    price: '12.000 Ar',
+    image: 'https://media.istockphoto.com/id/459004449/fr/photo/haliborange-vitamine-c-1-mg-effervescentes-tablettes.jpg?s=612x612&w=0&k=20&c=Uh2ifbZSik84UfPqU-OG9Iv55dd4ccwto47auQL0g68=',
+  },
+  {
+    id: 6,
+    name: 'Vitamine C 1000mg',
+    description: 'Supplément pour renforcer le système immunitaire et prévenir les carences en vitamine C.',
+    price: '12.000 Ar',
+    image: 'https://media.istockphoto.com/id/459004449/fr/photo/haliborange-vitamine-c-1-mg-effervescentes-tablettes.jpg?s=612x612&w=0&k=20&c=Uh2ifbZSik84UfPqU-OG9Iv55dd4ccwto47auQL0g68=',
+  },
 ];
 
 function ProductCatalogue() {
@@ -41,8 +62,8 @@ function ProductCatalogue() {
                 <img src={product.image} alt={product.name} className='product__image' />
             </div>
 
-            <h2>{product.name}</h2>
-            <p>{product.description}</p>
+            <h2 className='product__name'>{product.name}</h2>
+            <h3 className='product__description'>{product.description}</h3>
             <p className='product__price'>{product.price}</p>
             <button className='product__button'>Ajouter au Panier</button>
 

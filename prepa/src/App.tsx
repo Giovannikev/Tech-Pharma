@@ -15,8 +15,8 @@ function App() {
 
       <main className="main">
         <Home />
-        <Login />
-        <ChatBotPage />
+        {/* <Login />
+        <ChatBotPage /> */}
         <ProductCatalogue />
       </main>
       

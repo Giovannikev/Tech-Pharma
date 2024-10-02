@@ -32,7 +32,7 @@ const Footer = () => {
                     </div>
                     
                     <div className="col-1">
-                        <h4>
+                        <h4 className='title'>
                             Informations
                         </h4>
                         <ul className="informations">
@@ -55,7 +55,7 @@ const Footer = () => {
                     </div>
                     
                     <div className="col-1">
-                        <h4>Informations légales</h4>
+                        <h4 className='title'>Informations légales</h4>
                         <ul className="informations">
                             <li>
                                 <a href="/fr/page/mentions-legales.html" title="Mentions légales">Mentions légales</a>
@@ -78,7 +78,7 @@ const Footer = () => {
                     </div>
 
                     <div className="col-1 social">
-                        <h4>Contact</h4>
+                        <h4 className='title'>Contact</h4>
                         <a href="" className="home__social-icon" target='_blank'>
                             <i className='bx bxs-phone'></i>
                         </a>

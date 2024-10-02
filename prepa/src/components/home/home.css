@@ -54,3 +54,28 @@
     justify-content: center;
     margin-right: 11rem;
 }
+
+@media screen and (max-width: 950px) {
+    .home{
+        width: 100%;
+        height: auto;
+    }
+    .home__container .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .home-image{
+        margin-left: 15rem;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 695px) {
+    .home{
+        font-size: medium;
+    }
+    .home__container .content {
+    }
+}
