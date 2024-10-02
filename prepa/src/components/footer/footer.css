@@ -86,9 +86,20 @@
 }
 
 
-@media screen and (max-width: 412px) {
-    .col-1 .title {
-        font-size: var(--large-font-size);
+@media screen and (max-width: 361px) {
+    .footer__container{
+        width: 100%;
+        height: auto;
+    }
+    .col-1{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 2rem;
+        font-size: var(--smaller-font-size);
+    }
+    .footer__copy{
+        font-size: var(--smaller-font-size);
+        margin-right: 2rem;
     }
 }
 
