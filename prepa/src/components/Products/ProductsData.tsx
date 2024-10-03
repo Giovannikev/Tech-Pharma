@@ -46,11 +46,20 @@ const productsData = [
   },
 ];
 
+
 function ProductCatalogue() {
   const [products] = useState(productsData); 
+  // const [product, setProduct] = useState('Bonjour');
+
+  // const handleClick = () => {
+  //   setProduct(product === 'Bonjour' ? 'ibu' : 'Bonjour');
+  // }
 
   return (
     <div className='product__container'>
+      {/* <p>OVY EE</p>
+      <h2>{product}</h2>
+      <button onClick={ handleClick }>PVY</button> */}
 
       <span className="catalogue__title font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-800 to-green-500">Notre Catalogue de Produits :</span>
 
